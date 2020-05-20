@@ -1,4 +1,9 @@
-# Landing Page Project
+# Dynamic Scrolling Page Template
+
+- Author: Kumar Saurabh Raj
+- Technologies Used: HTML, CSS, VanillaJS
+
+## Description
 
 It is a basic landing page with dynamically created navbar and section highlighting and scrolling.
 
