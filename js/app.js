@@ -80,7 +80,11 @@ function setActive(){
 // Scroll to anchor ID using scrollTO event
 
 function scrollToSection(section){
-    window.scrollTo(0, sectionOffsets[section]);
+    window.scrollTo({
+        top: sectionOffsets[section],
+        left: 0,
+        behavior: 'smooth'
+      });
 }
 
 /**
